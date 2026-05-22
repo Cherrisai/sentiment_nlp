@@ -6,6 +6,8 @@ This project trains a machine learning sentiment classifier from the provided wo
 
 The Streamlit app includes single-review prediction, batch prediction, dashboard charts, sentiment filters, a review question-answer assistant, and animated sentiment result cards.
 
+deploy: https://huggingface.co/spaces/cherrisai/sentiment_nlp?logs=container
+
 ## Project Structure
 
 ```text
@@ -56,9 +58,6 @@ streamlit run app.py
 
 The dataset does not include manual sentiment labels, so labels are created from product ratings:
 
-- `1` or `2`: Negative
-- `3`: Neutral
-- `4` or `5`: Positive
 
 When an uploaded batch file contains a rating column, the app uses that rating as the strongest sentiment signal and uses review/title words plus the trained model as supporting explanation.
 # sentiment_nlp
