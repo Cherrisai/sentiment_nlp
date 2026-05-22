@@ -6,7 +6,7 @@ This project trains a machine learning sentiment classifier from the provided wo
 
 The Streamlit app includes single-review prediction, batch prediction, dashboard charts, sentiment filters, a review question-answer assistant, and animated sentiment result cards.
 
-deploy: https://huggingface.co/spaces/cherrisai/sentiment_nlp?logs=container
+deploy: https://huggingface.co/spaces/cherrisai/sentiment_nlp
 
 ## Project Structure
 
