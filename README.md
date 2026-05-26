@@ -16,8 +16,7 @@ deploy: https://huggingface.co/spaces/cherrisai/sentiment_nlp
 |-- data
 |   |-- processed
 |   `-- raw
-|       |-- dataset -P676 (1).xlsx
-|       |-- P676 NLP Group Lists.xlsx
+|       |-- dataset -P676 (1).
 |       `-- Project_Objective P676 (1).docx
 |-- models
 |-- notebooks
